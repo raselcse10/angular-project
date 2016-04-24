@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="store">
+<head>
+	<title>Angular Js Application</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.js">
+
+</head>
+<body>
+
+	<p> I am {{ 4000 + 60 | limitTo:2 }} </p>
+	<p> Your name {{ yourName }}</p>
+
+	<div class="" ng-app="profileDetails">
+		<p>Name: {{ yourProfileName }} </p>
+	</div>
+
+	<input type="text" ng-model="yourName" name="yourName"></input>
+	<script type="text/javascript" src="angular.min.js"> </script>
+	<script type="text/javascript" src="app.js"> </script>
+</body>
+</html>
